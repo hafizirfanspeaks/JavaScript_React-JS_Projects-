@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  color: #000;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  width: 550px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+
+h1 {
+  color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background: #00c6ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0072ff;
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  background: #f0f0f0; /* light grey for printing */
+  padding: 25px;
+  border-radius: 15px;
+  border: 2px solid #aaa;
+  flex-direction: row;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  color: #111;
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #555;
+}
+
+.card .info {
+  flex: 1;
+}
+
+.card .info h2 {
+  color: #1a1a1a;
+  margin: 5px 0;
+  font-size: 1.3rem;
+}
+
+.card .info p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+}
+
+.card .info strong {
+  color: #000;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.social-icons a {
+  color: #444;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #005eff;
+  transform: scale(1.2);
+}
+
+.message {
+  margin-top: 20px;
+  padding: 15px;
+  background: #ffe0e0;
+  color: #c00;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.urdu-link {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #222;
+}
